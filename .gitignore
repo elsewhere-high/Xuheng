@@ -1,0 +1,39 @@
+# Local environments and dependencies
+.conda/
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.tsbuildinfo
+.wrangler/
+.vite/
+.next/
+.vinext/
+
+# Private settings and generated run data
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*credential*.json
+*.sqlite3
+*.sqlite3-*
+.tmp/
+artifacts/
+logs/
+*.log
+# Keep the design system, but exclude temporary design tooling files.
+.impeccable/*
+!.impeccable/design.json
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,32 @@
+{
+  "schema_version": "xuheng.erpnext_mapping/v1",
+  "company": "Xuheng Demo Manufacturing",
+  "default_warehouse": "Stores - DEMO",
+  "wip_warehouse": "Work In Progress - DEMO",
+  "finished_goods_warehouse": "Finished Goods - DEMO",
+  "scenario_epoch": "2026-08-30T08:00:00+08:00",
+  "item_codes": {
+    "mat_bev": "XUHENG-MAT-BEV",
+    "mat_d83": "XUHENG-MAT-D83",
+    "mat_dg8": "XUHENG-MAT-DG8",
+    "mat_dk8": "XUHENG-MAT-DK8",
+    "mat_g0k": "XUHENG-MAT-G0K",
+    "mat_g1z": "XUHENG-MAT-G1Z",
+    "mat_q2j": "XUHENG-MAT-Q2J"
+  },
+  "order_to_production_item": {
+    "ord_public_cfg_1": "XUHENG-PRD-CFG-1",
+    "ord_public_cfg_2": "XUHENG-PRD-CFG-2",
+    "ord_public_cfg_3": "XUHENG-PRD-CFG-3"
+  },
+  "order_to_bom": {
+    "ord_public_cfg_1": "BOM-XUHENG-PRD-CFG-1-001",
+    "ord_public_cfg_2": "BOM-XUHENG-PRD-CFG-2-001",
+    "ord_public_cfg_3": "BOM-XUHENG-PRD-CFG-3-001"
+  },
+  "order_quantities": {
+    "ord_public_cfg_1": 91,
+    "ord_public_cfg_2": 81,
+    "ord_public_cfg_3": 45
+  }
+}

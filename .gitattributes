@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.xlsb binary
+*.woff2 binary
+# Preserve exact evidence bytes, including CRLF, while still checking whitespace.
+data/cases/mendeley_drill/evidence/* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+data/cases/mendeley_drill/scenario.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+data/public/** -text
+LICENSE -text

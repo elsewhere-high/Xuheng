@@ -1,0 +1,71 @@
+"""Contract-compatible ERP/MES sandbox integration for the showcase demo."""
+
+from xuheng.integration.contracts import (
+    AdapterCapability,
+    BusinessStatus,
+    CanonicalCommand,
+    ExecutionCallback,
+    IntegrationProfile,
+    TargetSystem,
+    TransportAck,
+    TransportStatus,
+)
+from xuheng.integration.orchestrator import (
+    build_commands,
+    build_system_snapshots,
+    replan_after_capacity_feedback,
+    run_partial_failure_demo,
+)
+from xuheng.integration.erpnext import (
+    ERPNextAdapter,
+    ERPNextConfig,
+    ERPNextExecutionLedger,
+    ERPNextExecutionResult,
+    ERPNextHttpClient,
+    ERPNextMapping,
+    build_erpnext_commands,
+    compare_execution_snapshots,
+)
+from xuheng.integration.openmes import (
+    OPENMES_UPSTREAM_COMMIT,
+    OpenMESAdapter,
+    OpenMESConfig,
+    OpenMESExecutionLedger,
+    OpenMESExecutionResult,
+    OpenMESHttpClient,
+    OpenMESMapping,
+    build_openmes_command,
+    compare_openmes_snapshots,
+)
+
+__all__ = [
+    "AdapterCapability",
+    "BusinessStatus",
+    "CanonicalCommand",
+    "ExecutionCallback",
+    "IntegrationProfile",
+    "TargetSystem",
+    "TransportAck",
+    "TransportStatus",
+    "build_commands",
+    "build_system_snapshots",
+    "replan_after_capacity_feedback",
+    "run_partial_failure_demo",
+    "ERPNextAdapter",
+    "ERPNextConfig",
+    "ERPNextExecutionLedger",
+    "ERPNextExecutionResult",
+    "ERPNextHttpClient",
+    "ERPNextMapping",
+    "build_erpnext_commands",
+    "compare_execution_snapshots",
+    "OPENMES_UPSTREAM_COMMIT",
+    "OpenMESAdapter",
+    "OpenMESConfig",
+    "OpenMESExecutionLedger",
+    "OpenMESExecutionResult",
+    "OpenMESHttpClient",
+    "OpenMESMapping",
+    "build_openmes_command",
+    "compare_openmes_snapshots",
+]
